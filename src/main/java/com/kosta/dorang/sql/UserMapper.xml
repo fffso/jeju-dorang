@@ -3,6 +3,14 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="UserMapper">
-
-
+	<resultMap id="userResult" type="com.kosta.dorang.dto.User">
+		<result property="user_code" column="user_code" />
+		<result property="user_id" column="user_id" />
+		<result property="access_token" column="access_token" />
+		<result property="user_age_range" column="user_age_range" />
+		<result property="user_nickname" column="user_nickname" />
+		<result property="user_gender" column="user_gender" />
+		<result property="user_status" column="user_status" />
+		<result property="user_choosen_tag" column="user_choosen_tag" />
+	</resultMap>
 </mapper>

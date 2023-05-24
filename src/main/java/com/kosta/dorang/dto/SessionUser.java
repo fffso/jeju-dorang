@@ -1,6 +1,6 @@
 package com.kosta.dorang.dto;
 
-public class User {
+public class SessionUser {
 	private int user_code;
 	private String user_id;
 	private String access_token;
@@ -11,24 +11,6 @@ public class User {
 	private String user_pic;
 	private String user_choosen_tag;
 	
-	public User() {}
-	
-	
-	public User(int user_code, String user_id, String access_token, String user_age_range, String user_nickname,
-			char user_gender, String user_status, String user_pic, String user_choosen_tag) {
-		super();
-		this.user_code = user_code;
-		this.user_id = user_id;
-		this.access_token = access_token;
-		this.user_age_range = user_age_range;
-		this.user_nickname = user_nickname;
-		this.user_gender = user_gender;
-		this.user_status = user_status;
-		this.user_pic = user_pic;
-		this.user_choosen_tag = user_choosen_tag;
-	}
-
-
 	public void setUser_code() {
 		this.user_code=user_code;
 	}
@@ -85,8 +67,4 @@ public class User {
 	public void setUser_choosen_tag(String user_choosen_tag) {
 		this.user_choosen_tag = user_choosen_tag;
 	}
-	
-	
 }
-
-
