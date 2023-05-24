@@ -17,7 +17,7 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
         <property name="mapperLocations">
-            <list> <!-- 복수일 경우 -->
+            <list> 
                 <value>
                     classpath*:com/kosta/dorang/sql/*.xml
                 </value>
