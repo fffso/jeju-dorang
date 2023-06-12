@@ -120,7 +120,7 @@
 </head>
 <body>
 <!-- header -->
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="headerBoot.jsp"></jsp:include>
 
 <div class="travel-detail-container" style="background-image:url(${place.getImage() });">
 	<div class="travel-detail-left">
@@ -212,6 +212,6 @@
 
 
 <!-- footer -->
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="footerBoot.jsp"></jsp:include>
 </body>
 </html>
