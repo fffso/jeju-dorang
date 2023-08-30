@@ -17,7 +17,7 @@
  <table>
    <tr>
     <td>신동의<span style="font-size:5px;">✌️팀장(발표)</span> </td>
-    <td> </td>
+    <td>손세라</td>
     <td>조민주</td>
     <td>전소라</td>
     <td>하예빈</td>
